@@ -1,0 +1,29 @@
+{
+  "name": "gulp-fastly",
+  "version": "1.0.0",
+  "description": "A gulp plugin to help with Fastly purges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjlu/gulp-fastly.git"
+  },
+  "keywords": [
+    "gulp",
+    "fastly",
+    "purge"
+  ],
+  "author": "Steven Lu <slu@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjlu/gulp-fastly/issues"
+  },
+  "homepage": "https://github.com/sjlu/gulp-fastly#readme",
+  "dependencies": {
+    "fastly-purge": "^1.0.1",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}
